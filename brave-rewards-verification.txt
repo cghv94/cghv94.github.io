@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: cghv94.github.io
-Token: 965d1237c891b16bc39729523a898f8cc9364c993b089ceb739b20d6ecb3a5c1
