@@ -10,4 +10,5 @@ fwrite($fi,"\n");
 fwrite($fi,"contraseña");
 fwrite($fi,"\n");
 fclose($fi);
+echo "Conectado a internet";
 ?>
