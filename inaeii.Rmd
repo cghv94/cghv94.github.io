@@ -1,0 +1,441 @@
+---
+title: "INAE II"
+output: 
+  flexdashboard::flex_dashboard:
+    theme: lumen
+    storyboard: true
+    fig_mobile: TRUE
+    logo: logo.jpg
+    favicon: escudo_economia.svg
+    social: [ "twitter", "facebook"]
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+```
+
+### Presentación del curso
+
+<center>
+
+[![](presentacion.png){width="600" height="380"}](https://google.com)
+
+</center>
+
+------------------------------------------------------------------------
+
+</br>
+<center>
+<b style="font-size: 200%">Objetivos</b>
+</center>
+</br>
+
+<div class=text-justify>
+Al finalizar el curso, serás capaz de identificar y analizar problemas económicos en los sectores agropecuario e industrial a nivel municipal, estatal, nacional e internacional; demostrándolo mediante la elaboración de un sitio web y un trabajo de investigación.
+</div></br>
+
+### Profesorado
+
+<center><table width="80%" border="0"><tr>    
+
+</br><td align="center" ><b style="font-size: 170%" >Padilla Páez Omar Vicente</b><p style="font-size: 150%">omarx@economia.unam.mx</p><a href="https://mx.linkedin.com/in/omarxpadilla"><img src="https://cghv94.github.io/inaeomar.png" height="200"/></a></td>
+
+</br><td align="center" ><b style="font-size: 170%" >Hernández Vargas Cesar Gerardo</b><p style="font-size: 150%">cghv94@outlook.es</p><a href="https://cghv94.github.io"><img src="https://cghv94.github.io/foto.png" height="200"/></a></td>
+
+
+</tr></table></center></br>
+
+------------------------------------------------------------------------
+
+</br>
+<center>
+<b style="font-size: 200%">Sobre los profesores</b>
+</center>
+</br>
+
+<div class=text-justify>
+Aquí va una breve semblanza
+</div></br>
+
+
+### Registro
+
+<center><table width="100%" border="0"><tr>    
+
+<td align="center" ><b style="font-size: 100%" >Zoom</b><p style="font-size: 50%">Inscríbete para participar en las sesiones online vía Zoom</p><a href="https://cuaed-unam.zoom.us/j/84500235519?pwd=WnVZTHQ3NTJoQVdsTFBuMExRakVyUT09"><img src="https://cghv94.github.io/zoom.jpg" height="150"/></a></td>
+
+<td align="center" ><b style="font-size: 100%" >Google Forms</b><p style="font-size: 50%">Responde el formulario para crear un perfil de cada integrante el grupo</p><a href="https://docs.google.com/forms/d/e/1FAIpQLSf6ZepadNeg-QhgGooN2WWr4fpljuEGWwIKqinLyIDVyoL5XA/viewform"><img src="https://upload.wikimedia.org/wikipedia/commons/5/5b/Google_Forms_2020_Logo.svg" height="150"/></a></td>
+
+</tr></table></center></br>
+
+
+
+<center><table width="100%" border="0"><tr>    
+
+<td align="center" ><b style="font-size: 100%" >Facebook</b><p style="font-size: 50%">Compartir y publicar información en el grupo de Facebook de la materia</p><span style="padding-right:20px;"><a href="https://www.facebook.com/groups/inae2003/"><img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" height="150"/></a></span></td>
+
+
+<td align="center" ><b style="font-size: 100%" >Telegram</b><p style="font-size: 50%">Para formar parte del grupo de Telegram, completa tu registro en Zoom y llena el formulario de Google</p><a href="https://telegram.com"><img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Telegram_2019_Logo.svg" height="150"/></a></td>
+
+</tr></table></center></br>
+
+------------------------------------------------------------------------
+
+</br>
+<center>
+<b style="font-size: 200%">Sobre el registro</b>
+</center>
+</br>
+
+<div class=text-justify>
+Aquí va la información sobre el registro
+</div></br>
+
+
+### Introducción
+
+<center><table width="80%" border="0"><tr>    
+
+
+</br><td align="center" ><b style="font-size: 200%" >GitHub</b><p style="font-size: 150%">Mi GitHub Page</p></br><a href="https://github.com"><img src="https://upload.wikimedia.org/wikipedia/commons/2/29/GitHub_logo_2013.svg" width="200" width="200" /></a></td>
+
+
+</br><td align="center" ><b style="font-size: 200%" >RStudio Cloud</b><p style="font-size: 150%">Espacio de trabajo</p></br><a href="https://rstudio.cloud/project/2201534"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/RStudio_logo_flat.svg" width="200" /></a></td>
+
+
+</tr></table></center></br>
+
+------------------------------------------------------------------------
+
+</br>
+<center>
+<b style="font-size: 200%">Contenido</b>
+</center>
+</br>
+
+<div class=text-justify>
+
+- <b>Sesión 1.</b> Presentación del curso. ¿Cuáles son las habilidades para trabajar y aprender en el Siglo XXI? <b>Febrero 22.</b>
+
+- <b>Sesión 2.</b> Presentación de las herramientas de trabajo. ¿Por qué utilizar RStudio Cloud y GitHub Pages? <b>Febrero 24.</b>
+
+</div></br>
+
+
+### 1. Descripción del bien agropecuario o industrial. ¿Mercancía o producto?
+
+
+</br>
+<center>
+<b>Recursos del tema 1</b>
+</center>
+
+
+
+------------------------------------------------------------------------
+
+</br>
+<center>
+<b style="font-size: 200%">Contenido</b>
+</center>
+</br>
+
+<div class=text-justify>
+
+- <b>Sesión 3.</b> Bien agropecuario. ¿Mercancía o producto? <b>Marzo 1.</b>
+
+- <b>Sesión 4.</b> Bien industrial. ¿Mercancía o producto? <b>Marzo 3.</b>
+
+</div></br>
+
+
+### 2. Crecimiento de la producción del bien a nivel mundial, nacional, estatal y municipal.
+
+
+</br>
+<center>
+<b>Recursos del tema 2</b>
+</center>
+
+
+------------------------------------------------------------------------
+
+</br>
+<center>
+<b style="font-size: 200%">Contenido</b>
+</center>
+</br>
+
+<div class=text-justify>
+
+- <b>Sesión 5.</b> Producción y productividad agropecuaria mundial. <b>Marzo 8.</b>
+
+- <b>Sesión 6.</b> Producción y productividad industrial mundial. <b>Marzo 10.</b>
+
+- <b>Sesión 7.</b> Producción agropecuaria nacional. Composición sectorial. <b>Marzo 17.</b>
+
+- <b>Sesión 8.</b> Producción industrial nacional. Composición sectorial. <b>Marzo 22.</b>
+
+- <b>Sesión 9.</b> La producción y la composición del empleo agropecuario en México (nivel estatal y municipal). <b>Marzo 24.</b>
+
+- <b>Sesión 10.</b> La producción y la composición del empleo industrial en México (nivel estatal y municipal). <b>Abril 5</b>
+
+
+</div></br>
+
+
+
+### 3. La cadena global de valor del bien.
+
+
+</br>
+<center>
+<b>Recursos del tema 3</b>
+</center>
+
+
+------------------------------------------------------------------------
+
+</br>
+<center>
+<b style="font-size: 200%">Contenido</b>
+</center>
+</br>
+
+<div class=text-justify>
+
+- <b>Sesión 11.</b> Cadenas de valor agropecuarias. <b>Abril 7.</b>
+
+- <b>Sesión 12.</b> Cadenas de valor industriales. <b>Abril 12.</b>
+
+
+</div></br>
+
+
+
+### 4. Geopolítica y división internacional del trabajo en los sectores agropecuario e industrial.
+
+
+</br>
+<center>
+<b>Recursos del tema 4</b>
+</center>
+
+
+------------------------------------------------------------------------
+
+</br>
+<center>
+<b style="font-size: 200%">Contenido</b>
+</center>
+</br>
+
+<div class=text-justify>
+
+- <b>Sesión 13.</b> Geopolítica y división internacional del trabajo en el sector agropecuario de México. <b>Abril 14.</b>
+
+- <b>Sesión 14.</b> Geopolítica y división internacional del trabajo en el sector industrial de México. <b>Abril 19.</b>
+
+
+</div></br>
+
+
+### 5. Desarrollo y condiciones del proceso de trabajo del bien. ¿Qué ocurre con la tierra, trabajo, materias primas, capital y tecnología?
+
+
+</br>
+<center>
+<b>Recursos del tema 5</b>
+</center>
+
+
+------------------------------------------------------------------------
+
+</br>
+<center>
+<b style="font-size: 200%">Contenido</b>
+</center>
+</br>
+
+<div class=text-justify>
+
+- <b>Sesión 15.</b> Proceso de trabajo agropecuario: tenencia y renta de la tierra. <b>Abril 21.</b>
+
+- <b>Sesión 16.</b> Proceso de trabajo agropecuario: tenencia y renta del suelo industrial. <b>Abril 26.</b>
+
+- <b>Sesión 17.</b> Materias primas del sector agropecuario. <b>Abril 28.</b>
+
+- <b>Sesión 18.</b> Materias primas del sector industrial. <b>Mayo 3.</b>
+
+</div></br>
+
+
+
+### 6. Comercio exterior del producto (importaciones e importaciones).
+
+
+</br>
+<center>
+<b>Recursos del tema 6</b>
+</center>
+
+
+------------------------------------------------------------------------
+
+</br>
+<center>
+<b style="font-size: 200%">Contenido</b>
+</center>
+</br>
+
+<div class=text-justify>
+
+- <b>Sesión 19.</b> Las tecnologías en el sector agropecuario. <b>Mayo 5.</b>
+
+- <b>Sesión 20.</b> Las tecnologías en el sector industrial. <b>Mayo 12.</b>
+
+- <b>Sesión 21.</b> Comercio exterior del sector agropecuario. <b>Mayo 17.</b>
+
+- <b>Sesión 22.</b> Comercio exterior del sector industrial. <b>Mayo 19.</b>
+
+</div></br>
+
+
+### 7. Análisis de la oferta y la demanda del producto.
+
+
+</br>
+<center>
+<b>Recursos del tema 7</b>
+</center>
+
+
+------------------------------------------------------------------------
+
+</br>
+<center>
+<b style="font-size: 200%">Contenido</b>
+</center>
+</br>
+
+<div class=text-justify>
+
+- <b>Sesión 23.</b> Análisis de la oferta y la demanda en el sector agropecuario (mercados, precios y cantidades). <b>Mayo 24.</b>
+
+- <b>Sesión 24.</b> Análisis de la oferta y la demanda en el sector industrial (mercados, precios y cantidades). <b>Mayo 26.</b>
+
+
+</div></br>
+
+
+### 8. Mi primer investigación; problemas y propuesta de solución.
+
+</br>
+<center>
+<b>Recursos del tema 8</b>
+</center>
+
+
+------------------------------------------------------------------------
+
+</br>
+<center>
+<b style="font-size: 200%">Contenido</b>
+</center>
+</br>
+
+<div class=text-justify>
+
+- <b>Sesión 25.</b> Planteamiento del problema. <b>Mayo 31.</b>
+
+- <b>Sesión 26.</b> Marco referencial. <b>Junio 2.</b>
+
+- <b>Sesión 27.</b> Metodología. <b>Junio 7.</b>
+
+- <b>Sesión 28.</b> Presentación de resultados. <b>Junio 9.</b>
+
+- <b>Sesión 29.</b> La integración de un informe de investigación. <b>Junio 14.</b>
+
+</div></br>
+
+### Evaluación
+
+</br>
+<b>Asistencia mínima del 80% para acreditar la asignatura. Los productos por evaluar serán:</b>
+</br>
+</br>
+- Actividades en línea <b>50%</b>
+</br></br>
+- Sitio web del estudiante <b>20%</b>
+</br></br>
+- Trabajo de investigación <b>30%</b>
+
+
+------------------------------------------------------------------------
+
+</br>
+<center>
+<b style="font-size: 200%">Contenido</b>
+</center>
+</br>
+
+<div class=text-justify>
+
+- <b>Sesión 30.</b> Evaluación final del curso. <b>Junio 16.</b>
+
+</div></br>
+
+
+### Trabajo Final
+
+</br>
+<center>
+![](inaefinal.jpg){width="600" height="380"}
+</center>
+
+------------------------------------------------------------------------
+
+</br>
+<center>
+<b style="font-size: 200%">Elementos del trabajo final</b>
+</center>
+</br>
+
+<div class=text-justify>
+
+- Descripción del trabajo final. <b>Fecha de entrega.</b>
+
+</div></br>
+
+
+### Bibliografía
+
+</br>
+<div class=text-justify>
+
+- Belcher, Wendy (2010). Cómo escribir un artículo académico en 12 semanas. Guía para publicar con éxito. Facultad Latinoamericana de Ciencias Sociales. Sede México.
+- Blaxter, Loraine; et. al. (2005). Cómo se hace una investigación científica. Gedisa Editorial. México.
+- Booth, Wayne; et. al. (2001). Cómo convertirse en un hábil investigador. Gedisa Editorial. México.
+- Dieterich, Heinz (2001). Nueva guía para la investigación científica, Ariel, México.
+- Hernández, Roberto et. al. (2014)  Metodología de la Investigación Editorial Mc Graw Hill, México.
+- Rivera, Jaime (2011). Cómo escribir y publicar una tesis doctoral. Editorial ESIC. Madrid.
+- Rojas, M., et. al. (2008). Estrategias de Escritura Para un Artículo de Revista Académica en los Campos de Ciencias Sociales y Humanidades. En: Revista Electrónica Actualidades Investigativas en Educación, Universidad de Costa Rica, diciembre de 2008, disponible en: http://www.edumargen.org/docs/curso50-1/Unid05/apunte06_05.pdf
+
+</div></br>
+
+
+------------------------------------------------------------------------
+
+</br>
+<center>
+<b style="font-size: 200%">Sobre la bibliografía</b>
+</center>
+</br>
+
+<div class=text-justify>
+
+Te invitamos a revisar la bibliografía recomendada antes de cada sesión.
+
+¡Mucha suerte el tu curso de INAE II!
+
+</div></br>
