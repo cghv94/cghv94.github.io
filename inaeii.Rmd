@@ -18,7 +18,7 @@ library(flexdashboard)
 
 <center>
 
-[![](presentacion.png){width="600" height="380"}](https://google.com)
+![](inae.png){width="600" height="380"}
 
 </center>
 
@@ -49,7 +49,7 @@ Al finalizar el curso, serás capaz de identificar y analizar problemas económi
 
 </br>
 <center>
-<b style="font-size: 200%">Sobre los profesores</b>
+<b style="font-size: 200%">Profesores</b>
 </center>
 </br>
 
@@ -83,7 +83,7 @@ Aquí va una breve semblanza
 
 </br>
 <center>
-<b style="font-size: 200%">Sobre el registro</b>
+<b style="font-size: 200%">¿Cómo me registro?</b>
 </center>
 </br>
 
@@ -92,12 +92,42 @@ Aquí va la información sobre el registro
 </div></br>
 
 
+### Dinámica de la clase
+
+</br>
+<center>
+<b style="font-size: 200%">Dinámica de la clase</b>
+</center>
+</br>
+
+</br>
+<center>
+![](dinamica.jpg){width="600" height="380"}
+</center>
+
+------------------------------------------------------------------------
+
+</br>
+<center>
+<b style="font-size: 200%">Dinámica</b>
+</center>
+</br>
+
+<div class=text-justify>
+
+Descripción de la dinámica. 
+
+</div></br>
+
+
 ### Introducción
 
 </br>
 <center>
-<b>Recursos de la introducción</b>
+<b style="font-size: 200%">Introducción</b>
 </center>
+</br>
+
 
 <center><table width="80%" border="0"><tr>    
 
@@ -129,6 +159,11 @@ Aquí va la información sobre el registro
 
 ### 1. Descripción del bien agropecuario o industrial. ¿Mercancía o producto?
 
+</br>
+<center>
+<b style="font-size: 200%">1. Descripción del bien</b>
+</center>
+</br>
 
 </br>
 <center>
@@ -156,6 +191,11 @@ Aquí va la información sobre el registro
 
 ### 2. Crecimiento de la producción del bien a nivel mundial, nacional, estatal y municipal.
 
+</br>
+<center>
+<b style="font-size: 200%">2. Crecimiento de la produccción</b>
+</center>
+</br>
 
 </br>
 <center>
@@ -192,6 +232,11 @@ Aquí va la información sobre el registro
 
 ### 3. La cadena global de valor del bien.
 
+</br>
+<center>
+<b style="font-size: 200%">3. La cadena global de valor</b>
+</center>
+</br>
 
 </br>
 <center>
@@ -223,6 +268,12 @@ Aquí va la información sobre el registro
 
 </br>
 <center>
+<b style="font-size: 200%">4. Geopolítica y división internacional del trabajo</b>
+</center>
+</br>
+
+</br>
+<center>
 <b>Recursos del tema 4</b>
 </center>
 
@@ -246,6 +297,13 @@ Aquí va la información sobre el registro
 
 
 ### 5. Desarrollo y condiciones del proceso de trabajo del bien. ¿Qué ocurre con la tierra, trabajo, materias primas, capital y tecnología?
+
+
+</br>
+<center>
+<b style="font-size: 200%">5. Desarrollo y condiciones del proceso de trabajo</b>
+</center>
+</br>
 
 
 </br>
@@ -278,6 +336,11 @@ Aquí va la información sobre el registro
 
 ### 6. Comercio exterior del producto (importaciones e importaciones).
 
+</br>
+<center>
+<b style="font-size: 200%">6. Comercio exterior</b>
+</center>
+</br>
 
 </br>
 <center>
@@ -308,6 +371,11 @@ Aquí va la información sobre el registro
 
 ### 7. Análisis de la oferta y la demanda del producto.
 
+</br>
+<center>
+<b style="font-size: 200%">7. Análisis de la oferta y la demanda</b>
+</center>
+</br>
 
 </br>
 <center>
@@ -334,6 +402,12 @@ Aquí va la información sobre el registro
 
 
 ### 8. Mi primer investigación; problemas y propuesta de solución.
+
+</br>
+<center>
+<b style="font-size: 200%">8. Mi primer investigación</b>
+</center>
+</br>
 
 </br>
 <center>
@@ -366,6 +440,12 @@ Aquí va la información sobre el registro
 ### Evaluación
 
 </br>
+<center>
+<b style="font-size: 200%">Evaluación</b>
+</center>
+</br>
+
+</br>
 <b>Asistencia mínima del 80% para acreditar la asignatura. Los productos por evaluar serán:</b>
 </br>
 </br>
@@ -395,35 +475,61 @@ Aquí va la información sobre el registro
 
 </br>
 <center>
-![](inaefinal.jpg){width="600"}
+<b style="font-size: 200%">Trabajo final</b>
+</center>
+</br>
+
+<center>
+<b>Estructura</b>
+</center>
+
+</br>
+<center>
+![](inaefinal.jpg){width="450"}
 </center>
 
 ------------------------------------------------------------------------
 
 </br>
 <center>
-<b style="font-size: 200%">Elementos del trabajo final</b>
+<b style="font-size: 200%">Trabajo final</b>
 </center>
 </br>
 
 <div class=text-justify>
 
-Descripción del trabajo final. <b>Fecha de entrega.</b>
-
+Descripción del trabajo final. 
+</br>
+</br>
+<b>Fecha de entrega: </b>
 </div></br>
 
 
-### Bibliografía
+### Bibliografía y créditos
 
 </br>
 <div class=text-justify>
 
+Te invitamos a revisar la bibliografía recomendada antes de cada sesión.
+
+¡Mucha suerte el tu curso de INAE II!
+
+</div></br>
+
+<div class=text-justify>
+
 - Belcher, Wendy (2010). Cómo escribir un artículo académico en 12 semanas. Guía para publicar con éxito. Facultad Latinoamericana de Ciencias Sociales. Sede México.
+</br></br>
 - Blaxter, Loraine; et. al. (2005). Cómo se hace una investigación científica. Gedisa Editorial. México.
+</br></br>
 - Booth, Wayne; et. al. (2001). Cómo convertirse en un hábil investigador. Gedisa Editorial. México.
+</br></br>
 - Dieterich, Heinz (2001). Nueva guía para la investigación científica, Ariel, México.
+</br></br>
 - Hernández, Roberto et. al. (2014)  Metodología de la Investigación Editorial Mc Graw Hill, México.
+</br></br>
 - Rivera, Jaime (2011). Cómo escribir y publicar una tesis doctoral. Editorial ESIC. Madrid.
+</br></br>
 - Rojas, M., et. al. (2008). Estrategias de Escritura Para un Artículo de Revista Académica en los Campos de Ciencias Sociales y Humanidades. En: Revista Electrónica Actualidades Investigativas en Educación, Universidad de Costa Rica, diciembre de 2008, disponible en: http://www.edumargen.org/docs/curso50-1/Unid05/apunte06_05.pdf
 
 </div></br>
@@ -433,14 +539,12 @@ Descripción del trabajo final. <b>Fecha de entrega.</b>
 
 </br>
 <center>
-<b style="font-size: 200%">Sobre la bibliografía</b>
+<b style="font-size: 200%">Créditos</b>
 </center>
 </br>
 
 <div class=text-justify>
 
-Te invitamos a revisar la bibliografía recomendada antes de cada sesión.
-
-¡Mucha suerte el tu curso de INAE II!
+<p style="font-size: 50%">Hernández Vargas Cesar Gerardo, Padilla Páez Omar Vicente. Esta obra fue generada mediante R en `r format(Sys.Date(), format = "%B %d, %Y")` y forma parte de las actividades realizadas en la materia de [INAE II](http://economia.unam.mx/academia/inae/), [Facultad de Economía, UNAM](http://economia.unam.mx/). </br>Este sitio está vinculado con [Google Analytics](https://analytics.google.com/) y [Google Search Console](https://search.google.com/search-console/welcome).</br>Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">licencia de Creative Commons Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional. </a>[Creative Commons (CC)](http://creativecommons.org/licenses/by-nc-sa/4.0/).<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a></p>
 
 </div></br>
