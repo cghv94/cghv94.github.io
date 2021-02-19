@@ -94,6 +94,11 @@ Aquí va la información sobre el registro
 
 ### Introducción
 
+</br>
+<center>
+<b>Recursos de la introducción</b>
+</center>
+
 <center><table width="80%" border="0"><tr>    
 
 
@@ -109,7 +114,7 @@ Aquí va la información sobre el registro
 
 </br>
 <center>
-<b style="font-size: 200%">Contenido</b>
+<b style="font-size: 200%">Introducción</b>
 </center>
 </br>
 
@@ -136,7 +141,7 @@ Aquí va la información sobre el registro
 
 </br>
 <center>
-<b style="font-size: 200%">Contenido</b>
+<b style="font-size: 200%">Tema 1</b>
 </center>
 </br>
 
@@ -162,7 +167,7 @@ Aquí va la información sobre el registro
 
 </br>
 <center>
-<b style="font-size: 200%">Contenido</b>
+<b style="font-size: 200%">Tema 2</b>
 </center>
 </br>
 
@@ -198,7 +203,7 @@ Aquí va la información sobre el registro
 
 </br>
 <center>
-<b style="font-size: 200%">Contenido</b>
+<b style="font-size: 200%">Tema 3</b>
 </center>
 </br>
 
@@ -226,7 +231,7 @@ Aquí va la información sobre el registro
 
 </br>
 <center>
-<b style="font-size: 200%">Contenido</b>
+<b style="font-size: 200%">Tema 4</b>
 </center>
 </br>
 
@@ -253,7 +258,7 @@ Aquí va la información sobre el registro
 
 </br>
 <center>
-<b style="font-size: 200%">Contenido</b>
+<b style="font-size: 200%">Tema 5</b>
 </center>
 </br>
 
@@ -284,7 +289,7 @@ Aquí va la información sobre el registro
 
 </br>
 <center>
-<b style="font-size: 200%">Contenido</b>
+<b style="font-size: 200%">Tema 6</b>
 </center>
 </br>
 
@@ -314,7 +319,7 @@ Aquí va la información sobre el registro
 
 </br>
 <center>
-<b style="font-size: 200%">Contenido</b>
+<b style="font-size: 200%">Tema 7</b>
 </center>
 </br>
 
@@ -340,7 +345,7 @@ Aquí va la información sobre el registro
 
 </br>
 <center>
-<b style="font-size: 200%">Contenido</b>
+<b style="font-size: 200%">Tema 8</b>
 </center>
 </br>
 
@@ -375,7 +380,7 @@ Aquí va la información sobre el registro
 
 </br>
 <center>
-<b style="font-size: 200%">Contenido</b>
+<b style="font-size: 200%">Sobre la evaluación</b>
 </center>
 </br>
 
@@ -390,7 +395,7 @@ Aquí va la información sobre el registro
 
 </br>
 <center>
-![](inaefinal.jpg){width="600" height="380"}
+![](inaefinal.jpg){width="600"}
 </center>
 
 ------------------------------------------------------------------------
@@ -403,7 +408,7 @@ Aquí va la información sobre el registro
 
 <div class=text-justify>
 
-- Descripción del trabajo final. <b>Fecha de entrega.</b>
+Descripción del trabajo final. <b>Fecha de entrega.</b>
 
 </div></br>
 
