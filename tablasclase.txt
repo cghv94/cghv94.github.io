@@ -1,0 +1,49 @@
+</br>
+
+<center>
+
+<b style="font-size: 275%">Presentación del curso</b>
+
+</center>
+
+</br>
+
+</br>
+
+<center>
+
+<table width="80%" border="0">
+
+<tr>    
+
+<td align="center" ><b style="font-size: 200%" >Programa</b><p style="font-size: 150%">Conoce el temario</p><span style="padding-right:20px;"><a href="https://cghv94.github.io/matematicas-1.pdf"><img src="https://cghv94.github.io/temario.png" height="200" /></a></span></td>
+
+<td align="center" ><b style="font-size: 200%" >Lineamientos</b><p style="font-size: 150%">#Respeto</p><a href="http://economia.unam.mx/avisos/recomendaciones.pdf"><img src="https://cghv94.github.io/reco.png" height="200" /></a></td>
+
+</tr>
+
+</table>
+
+</center></br>
+
+<center>
+
+<table width="80%" border="0">
+
+<tr>    
+
+<td align="center" ><b style="font-size: 200%" >RStudio Cloud</b><p style="font-size: 150%">Espacio de trabajo</p><span style="padding-right:20px;"></br><a href="https://rstudio.cloud/project/1342060"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/RStudio_logo_flat.svg" width="200" /></a></span></td>
+
+<td align="center" ><b style="font-size: 200%" >Twitch</b><p style="font-size: 150%">Videos de la clase</p></br><a href="https://www.twitch.tv/cghv94"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Twitch_logo_2019.svg" width="200" /></a></td>
+
+</tr>
+
+</table>
+
+</center></br>
+
+</br>
+
+<center><b style="font-size: 200%" >RPubs</b><p style="font-size: 150%">Manuales de R</p></br><a href="https://rpubs.com/cghv94"><img src="https://cghv94.github.io/IMG_20201007_083114.png" width="200" /></a></center></br>
+
+</br>
