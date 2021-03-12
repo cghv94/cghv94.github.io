@@ -176,8 +176,8 @@ pre code {
 <h1>Activando <code>data.table</code> y <code>tidyverse</code></h1>
 <p>Para este ejemplo, utilizaremos el paquete <code>data.table</code> y el paquete <code>tidyverse</code>, ambos se pueden activar mediante la función <code>library</code>.</p>
 </div>
-<div id="resumen-estadístico-de-las-actas-de-las-remuneraciones-al-personal-de-las-alcaldías-de-la-ciudad-de-méxico" class="section level1">
-<h1>1. Resumen estadístico de las actas de las remuneraciones al personal de las Alcaldías de la Ciudad de México</h1>
+<div id="resumen-estadístico-de-las-remuneraciones-al-personal-de-las-alcaldías-de-la-ciudad-de-méxico" class="section level1">
+<h1>1. Resumen estadístico de las remuneraciones al personal de las Alcaldías de la Ciudad de México</h1>
 <p>Importaremos los datos del <a href="https://datos.cdmx.gob.mx/dataset/remuneraciones-al-personal-de-las-alcaldias">portal de datos abiertos de la CDMX</a> con la función <code>fread</code> y obtendremos el resumen estadístico con <code>summary</code>:</p>
 <pre class="r"><code>remuneraciones&lt;-fread(&quot;https://datos.cdmx.gob.mx/dataset/079c585f-0963-4e99-89a1-e600ec791e19/resource/fedaffa2-9ff0-44b6-bc61-2b46525fc36a/download/remuneraciones-al-personal-de-las-alcaldias.csv&quot;) #Con `fread` podremos importar archivos `.csv` de gran tamaño
 summary(remuneraciones) #Obtenemos el resumen estadístico</code></pre>
