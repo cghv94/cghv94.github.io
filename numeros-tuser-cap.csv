@@ -74,15 +74,15 @@ numero ,fecha ,costo,producto ,cantidad ,precio ,envio ,genero ,edad ,telefono ,
 73,,,Chips de Kale,3 Chips de Kale,100,,,,,,
 74,,,Chips de Kale,3 Chips de Kale,100,,,,,,
 75,,,Chips de Kale,3 Chips de Kale,100,,,,,,
-76,,,Chips de Kale,3 Chips de Kale ,100,,,,,,
+76,,,Chips de Kale,3 Chips de Kale,100,,,,,,
 77,,,Chips de Kale,3 Chips de Kale,100,,,,,,
-78,,,Chips de Kale,3 Chips de Kale ,100,,,,,,
+78,,,Chips de Kale,3 Chips de Kale,100,,,,,,
 79,,,Chips de Kale,3 Chips de Kale,100,,,,,,
-80,,,Chips de Kale,3 Chips de Kale ,100,,,,,,
+80,,,Chips de Kale,3 Chips de Kale,100,,,,,,
 81,,,Chips de Kale,3 Chips de Kale,100,,,,,,
 82,,,Chips de Kale,3 Chips de Kale,100,,,,,,
 23,,,Chips de Kale,3 Chips de Kale,100,,,,,,
-84,,,Chips de Kale,3 Chips de Kale ,100,,,,,,
+84,,,Chips de Kale,3 Chips de Kale,100,,,,,,
 85,,,Chips de Kale,3 Chips de Kale,100,,,,,,
 86,,,Chips de Kale,3 Chips de Kale,100,,,,,,
 87,,,Chips de Kale,3 Chips de Kale,100,,,,,,
@@ -92,7 +92,7 @@ numero ,fecha ,costo,producto ,cantidad ,precio ,envio ,genero ,edad ,telefono ,
 91,,,Chips de Kale,3 Chips de Kale,100,,,,,,
 92,,,Chips de Kale,3 Chips de Kale,100,,,,,,
 93,,,Chips de Kale,3 Chips de Kale,100,,,,,,
-94,,,Chips de Kale,3 Chips de Kale ,100,,,,,,
+94,,,Chips de Kale,3 Chips de Kale,100,,,,,,
 95,,,Chips de Kale,3 Chips de Kale,100,,,,,,
 96,,,Chips de Kale,3 Chips de Kale,100,,,,,,
 97,,,Chips de Kale,3 Chips de Kale,100,,,,,,
@@ -110,7 +110,7 @@ numero ,fecha ,costo,producto ,cantidad ,precio ,envio ,genero ,edad ,telefono ,
 109,,,Chips de Kale,3 Chips de Kale,100,,,,,,
 110,,,Chips de Kale,3 Chips de Kale,100,,,,,,
 111,,,Chips de Kale,3 Chips de Kale,100,,,,,,
-112,,,Chips de Kale,3 Chips de Kale ,100,,,,,,
+112,,,Chips de Kale,3 Chips de Kale,100,,,,,,
 113,,,Chips de Kale,3 Chips de Kale,100,,,,,,
 114,,,Chips de Kale,3 Chips de Kale,100,,,,,,
 115,,,Chips de Kale,3 Chips de Kale,100,,,,,,
@@ -126,7 +126,7 @@ numero ,fecha ,costo,producto ,cantidad ,precio ,envio ,genero ,edad ,telefono ,
 125,,,Chips de Kale,3 Chips de Kale,100,,,,,,
 126,,,Chips de Kale,3 Chips de Kale,100,,,,,,
 127,,,Chips de Kale,3 Chips de Kale,100,,,,,,
-128,,,Chips de Kale,3 Chips de Kale ,100,,,,,,
+128,,,Chips de Kale,3 Chips de Kale,100,,,,,,
 129,,,Chips de Kale,3 Chips de Kale,100,,,,,,
 130,,,Chips de Kale,3 Chips de Kale,100,,,,,,
 131,,,Chips de Kale,3 Chips de Kale,100,,,,,,
@@ -189,84 +189,84 @@ numero ,fecha ,costo,producto ,cantidad ,precio ,envio ,genero ,edad ,telefono ,
 188,,65,Bluberry C,1 kilo,100,,,,,,
 189,,65,Bluberry C,1 kilo,100,,,,,,
 190,,65,Bluberry C,1 kilo,100,,,,,,
-191,,25,Kale,100 tabletas,200,0,F,A,,,magda
-192,,25,Alga Fucus ,100 tabletas,200,0,F,J,,,osvelia 
-193,,25,Curcuma,100 tabletas,200,0,F,J,,,tocayo
-194,,25,Diabetes,100 tabletas,200,0,M,J,,,tocayo
-195,,25,Maca,100 tabletas,200,0,M,J,,,tocayo
-196,,25,Bluberry C,1kilo,200,0,M,J,,,tocayo
-197,,25,Yuca,100 tabletas,200,0,F,J,,,artemida
-198,,25,Maca,100 tabletas,200,0,M,J,,,hugo
-199,,25,Castañas,100 tabletas,200,0,M,J,,,mimis
-200,,25,Kale,100 tabletas,200,0,M,J,,,luis
-201,,25,Maca,100 tabletas,200,0,M,A,,,luis
-202,,25,Maca,100 tabletas,200,0,M,A,,,hugo
-203,,25,Moringa,100 tabletas,200,0,M,A,,,juan
-203,,25,Clorella,100 tabletas,200,0,M,A,,,roly
-204,,25,Curcuma,100 tabletas,200,0,M,A,,,roly
-205,,25,Maca,100 tabletas,200,0,M,J,,,tocayo
-206,,25,Diabetes,100 tabletas,200,0,M,J,,,tocayo
-207,,25,Clorella,100 tabletas,200,0,M,J,,,tocayo
-208,,25,Moringa,100 tabletas,200,0,M,A,,,roly
-209,,25,Curcuma,100 tabletas,200,0,F,J,,,sara
-210,,25,Alga Fucus ,100 tabletas,200,0,F,J,,,sara
-211,,25,Alga Fucus ,100 tabletas,200,0,F,J,,,sara
-212,,25,Valeriana,100 tabletas,200,0,F,A,,,lizeth
+191,,25,Kale,100 tabletas ,200,0,F,A,,,magda
+192,,25,Alga Fucus ,100 tabletas ,200,0,F,J,,,osvelia 
+193,,25,Curcuma,100 tabletas ,200,0,F,J,,,tocayo
+194,,25,Diabetes,100 tabletas ,200,0,M,J,,,tocayo
+195,,25,Maca,100 tabletas ,200,0,M,J,,,tocayo
+196,,25,Bluberry C,1 kilo,200,0,M,J,,,tocayo
+197,,25,Yuca,100 tabletas ,200,0,F,J,,,artemida
+198,,25,Maca,100 tabletas ,200,0,M,J,,,hugo
+199,,25,Castañas,100 tabletas ,200,0,M,J,,,mimis
+200,,25,Kale,100 tabletas ,200,0,M,J,,,luis
+201,,25,Maca,100 tabletas ,200,0,M,A,,,luis
+202,,25,Maca,100 tabletas ,200,0,M,A,,,hugo
+203,,25,Moringa,100 tabletas ,200,0,M,A,,,juan
+203,,25,Clorella,100 tabletas ,200,0,M,A,,,roly
+204,,25,Curcuma,100 tabletas ,200,0,M,A,,,roly
+205,,25,Maca,100 tabletas ,200,0,M,J,,,tocayo
+206,,25,Diabetes,100 tabletas ,200,0,M,J,,,tocayo
+207,,25,Clorella,100 tabletas ,200,0,M,J,,,tocayo
+208,,25,Moringa,100 tabletas ,200,0,M,A,,,roly
+209,,25,Curcuma,100 tabletas ,200,0,F,J,,,sara
+210,,25,Alga Fucus ,100 tabletas ,200,0,F,J,,,sara
+211,,25,Alga Fucus ,100 tabletas ,200,0,F,J,,,sara
+212,,25,Valeriana,100 tabletas ,200,0,F,A,,,lizeth
 213,,50,CBD,20 gotas ,70,0,F,A,,,lizeth
 214,,65,Bluberry C,1 kilo,100,0,M,J,,,omar
 215,,35,Hababero,1 kilo,100,0,M,J,,,omar
 216,,35,Hababero,1 kilo,100,0,M,J,,,omar
 217,,35,Hababero,1 kilo,100,0,M,J,,,omar
-218,,25,Diabetes,100 tabletas,200,0,M,J,,,tocayo
+218,,25,Diabetes,100 tabletas ,200,0,M,J,,,tocayo
 219,,25,Bluberry C,1 kilo,200,0,M,J,,,tocayo
-220,,25,Maca,100 tabletas,200,0,M,J,,,tocayo
-221,,25,Maca,100 tabletas,200,0,F,J,,,izel 
-222,,25,Alga Fucus ,100 tabletas,200,0,F,J,,,izel 
-223,,25,Alga espirulina,100 tabletas,200,0,F,J,,,izel 
+220,,25,Maca,100 tabletas ,200,0,M,J,,,tocayo
+221,,25,Maca,100 tabletas ,200,0,F,J,,,izel 
+222,,25,Alga Fucus ,100 tabletas ,200,0,F,J,,,izel 
+223,,25,Alga espirulina,100 tabletas ,200,0,F,J,,,izel 
 224,,65,Bluberry C,1 kilo,100,0,F,J,,,izel 
 225,,65,Bluberry C,1 kilo,100,0,F,J,,,izel 
 226,,65,Bluberry C,1 kilo,100,0,F,J,,,izel 
 227,,35,Ciruela,1 kilo,60,0,F,J,,,izel 
 228,,35,Ciruela,1 kilo,60,0,F,J,,,izel 
-229,,25,Vitamina C,100 tabletas,166.66,0,F,J,,,puau kush 
-230,,25,Analgésico,100 tabletas,166.66,0,F,J,,,puau kush 
-231,,25,Pulmones,100 tabletas,166.66,0,F,J,,,puau kush 
-232,,25,Vitamina A,100 tabletas,200,0,F,J,,,elsa
-233,,25,Vitamina C,100 tabletas,200,0,F,A,,,shanti 
-234,,25,Inmune D3,100 tabletas,200,0,M,A,,,iván 
-235,,25,Inmune D3,100 tabletas,166.66,0,F,A,,,ana limon 
-236,,25,Inmune D3,100 tabletas,166.66,0,F,A,,,ana limon 
-237,,25,Analgésico,100 tabletas,166.66,0,F,A,,,ana limon 
-238,,25,Analgésico,100 tabletas,166.66,0,M,A,,,juan espinosa 
-239,,25,Analgésico,100 tabletas,166.66,0,M,A,,,juan espinosa 
-240,,25,Analgésico,100 tabletas,166.66,0,M,A,,,juan espinosa 
-241,,25,Inmune D3,100 tabletas,166.66,0,M,A,,,juan espinosa 
-242,,25,Inmune D3,100 tabletas,166.66,0,M,A,,,juan espinosa 
-243,,25,Inmune D3,100 tabletas,166.66,0,M,A,,,juan espinosa 
-244,,25,Maca,100 tabletas,166.66,0,M,A,,,juan espinosa 
-245,,25,Maca,100 tabletas,166.66,0,M,A,,,juan espinosa 
-246,,25,Maca,100 tabletas,166.66,260,M,A,,,juan espinosa 
-247,,25,Inmune D3,100 tabletas,200,0,M,J,,,oscarin 
+229,,25,Vitamina C,100 tabletas ,166.66,0,F,J,,,puau kush 
+230,,25,Analgésico,100 tabletas ,166.66,0,F,J,,,puau kush 
+231,,25,Pulmones,100 tabletas ,166.66,0,F,J,,,puau kush 
+232,,25,Vitamina A,100 tabletas ,200,0,F,J,,,elsa
+233,,25,Vitamina C,100 tabletas ,200,0,F,A,,,shanti 
+234,,25,Inmune D3,100 tabletas ,200,0,M,A,,,iván 
+235,,25,Inmune D3,100 tabletas ,166.66,0,F,A,,,ana limon 
+236,,25,Inmune D3,100 tabletas ,166.66,0,F,A,,,ana limon 
+237,,25,Analgésico,100 tabletas ,166.66,0,F,A,,,ana limon 
+238,,25,Analgésico,100 tabletas ,166.66,0,M,A,,,juan espinosa 
+239,,25,Analgésico,100 tabletas ,166.66,0,M,A,,,juan espinosa 
+240,,25,Analgésico,100 tabletas ,166.66,0,M,A,,,juan espinosa 
+241,,25,Inmune D3,100 tabletas ,166.66,0,M,A,,,juan espinosa 
+242,,25,Inmune D3,100 tabletas ,166.66,0,M,A,,,juan espinosa 
+243,,25,Inmune D3,100 tabletas ,166.66,0,M,A,,,juan espinosa 
+244,,25,Maca,100 tabletas ,166.66,0,M,A,,,juan espinosa 
+245,,25,Maca,100 tabletas ,166.66,0,M,A,,,juan espinosa 
+246,,25,Maca,100 tabletas ,166.66,260,M,A,,,juan espinosa 
+247,,25,Inmune D3,100 tabletas ,200,0,M,J,,,oscarin 
 248,,590,Hemp,600 gramos,900,0,M,J,,,oscarin 
 249,,25,Silimarina,100 tabletas ,166.66,0,M,J,,,tocayo
 250,,25,Inmune D3,100 tabletas ,166.66,0,M,J,,,tocayo
 251,,25,Kale,100 tabletas ,166.66,0,M,J,,,tocayo
 252,,40,Mermelada,250 gramos,100,0,M,J,,,abraham 
 253,,40,Mermelada,250 gramos,100,0,M,J,,,abraham 
-254,,25,Maca,100 tabletas,200,0,F,J,,,izel 
+254,,25,Maca,100 tabletas ,200,0,F,J,,,izel 
 255,,700,Gelatinas CBD ,200 gramos,420,0,F,J,,,puau kush 
-256,,25,Maca,100 tabletas,,,,,,,
-257,,25,Maca,100 tabletas,,,,,,,
+256,,25,Maca,100 tabletas ,,,,,,,
+257,,25,Maca,100 tabletas ,,,,,,,
 258,,590,Hemp,600 gramos,900,0,M,A,,,raúl 
 259,,,Mermelada,250 gramos,100,0,M,J,,,abraham 
 260,,,Mermelada,250 gramos,100,0,M,J,,,abraham 
 261,,,Mermelada,250 gramos,100,0,M,J,,,omar
-262,,25,Maca,100 tabletas,166.66,0,M,J,,,tocayo
-263,,25,Vitamina A,100 tabletas,166.66,0,F,J,,,Elsa
-264,,25,Diabetes,100 tabletas,166.66,0,M,J,,,
+262,,25,Maca,100 tabletas ,166.66,0,M,J,,,tocayo
+263,,25,Vitamina A,100 tabletas ,166.66,0,F,J,,,Elsa
+264,,25,Diabetes,100 tabletas ,166.66,0,M,J,,,
 265,,250,Aceite de Coco ,1 litro,350,210,F,J,,,dedee
 266,,,Mermelada,250 gramos,100,0,F,J,,,dedee
 267,,15,Ajo,50 gramos,100,0,F,J,,,dedee
 268,,26,Chips de Kale,3 Chips de Kale,100,0,F,J,,,dedee
 269,,700,CBD,1 gramo,900,0,M,J,,,abraham 
-270,,,Mermelada,250 gramos ,100,0,M,J,,,
+270,,,Mermelada,250 gramos,100,0,M,J,,,
