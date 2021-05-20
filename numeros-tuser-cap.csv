@@ -2,19 +2,19 @@ numero ,fecha ,costo,producto ,cantidad ,precio ,envio ,genero ,edad ,telefono ,
 1,,25,Moringa,100 tabletas ,200,0,F,A,,,patricia 
 2,,25,Curcuma ,100 tabletas ,200,0,M,J,,,davs
 3,,25,Moringa,100 tabletas ,200,0,F,A,,,patricia
-4,,25,Kale ,100 tabletas ,200,0,F,A,,,patricia
+4,,25,Kale,100 tabletas ,200,0,F,A,,,patricia
 5,,25,Diabetes,100 tabletas ,200,0,M,A,,,armando
 6,,25,Diabetes,100 tabletas ,200,100,M,A,,,yare
 7,,25,Diabetes,100 tabletas ,200,100,M,J,,,omar
 8,,25,Diabetes,100 tabletas ,200,100,M,J,,,juan
 9,,25,Moringa,100 tabletas ,200,100,M,A,,,celso 
 10,,25,Alga espirulina,100 tabletas ,200,100,F,J,,,vianey
-11,,25,Alga espirulina ,100 tabletas ,200,100,F,A,,,artemisa
+11,,25,Alga espirulina,100 tabletas ,200,100,F,A,,,artemisa
 12,,25,Curcuma,100 tabletas ,200,100,F,A,,,yare
 13,,25,Maca,100 tabletas ,200,0,F,J,,,artemisa
 14,,25,Curcuma ,100 tabletas ,200,100,F,J,,,artemisa
 15,,25,Curcuma ,100 tabletas ,200,0,M,J,,,charly
-16,,25,Alga espirulina ,100 tabletas ,200,0,M,J,,,juan 
+16,,25,Alga espirulina,100 tabletas ,200,0,M,J,,,juan 
 17,,25,Jengibre,100 tabletas ,200,0,M,,,,carlos 
 18,,25,Diabetes,100 tabletas ,200,0,F,,,,osvelia 
 19,,25,Maca,100 tabletas ,200,0,M,,,,juan
@@ -22,20 +22,20 @@ numero ,fecha ,costo,producto ,cantidad ,precio ,envio ,genero ,edad ,telefono ,
 21,,25,Diabetes,100 tabletas ,200,0,M,,,,sergio 
 22,,25,Curcuma ,100 tabletas ,200,0,F,,,,verónica
 23,,25,Moringa,100 tabletas ,200,0,M,,,,sergio 
-24,,25,Alga espirulina ,100 tabletas ,200,0,F,,,,susana
+24,,25,Alga espirulina,100 tabletas ,200,0,F,,,,susana
 25,,25,Diabetes,100 tabletas ,200,0,F,J,,,artemisa
-26,,25,Alga Fukus ,100 tabletas ,200,0,F,J,,,artemisa
+26,,25,Alga Fucus ,100 tabletas ,200,0,F,J,,,artemisa
 27,,25,Maca,100 tabletas ,200,0,M,,,,roly
 28,,25,Diabetes,100 tabletas ,200,0,M,,,,sergio
-29,,25,Jengibre ,100 tabletas ,200,0,M,,,,sergio
-30,,25,Alga espirulina ,100 tabletas ,200,0,M,,,,sergio
+29,,25,Jengibre,100 tabletas ,200,0,M,,,,sergio
+30,,25,Alga espirulina,100 tabletas ,200,0,M,,,,sergio
 31,,25,Curcuma ,100 tabletas ,200,0,M,,,,sergio
 32,,25,Maca,100 tabletas ,200,0,M,,,,ivan
 33,,25,Diabetes,100 tabletas ,200,0,M,,,,ivan
 34,,25,Bluberry ,100 tabletas ,200,0,M,,,,ivan
-35,,25,Alga Fukus ,100 tabletas ,200,0,M,,,,ivan
+35,,25,Alga Fucus ,100 tabletas ,200,0,M,,,,ivan
 36,,25,Maca,100 tabletas ,200,0,M,,,,ivan
-37,,25,Chorella,100 tabletas ,200,0,,,,,roly
+37,,25,Clorella,100 tabletas ,200,0,,,,,roly
 38,,25,Gastritis,100 tabletas ,200,0,,,,,roly
 39,,25,Hemp,454 gramos,400,0,,,,,Ines 
 40,,25,Maca,100 tabletas ,200,0,,,,,magda
@@ -190,7 +190,7 @@ numero ,fecha ,costo,producto ,cantidad ,precio ,envio ,genero ,edad ,telefono ,
 189,,65,Bluberry C,1 kilo,100,,,,,,
 190,,65,Bluberry C,1 kilo,100,,,,,,
 191,,25,Kale,100 tabletas,200,0,F,A,,,magda
-192,,25,Fokus,100 tabletas,200,0,F,J,,,osvelia 
+192,,25,Alga Fucus ,100 tabletas,200,0,F,J,,,osvelia 
 193,,25,Curcuma ,100 tabletas,200,0,F,J,,,tocayo
 194,,25,Diabetes,100 tabletas,200,0,M,J,,,tocayo
 195,,25,Maca,100 tabletas,200,0,M,J,,,tocayo
@@ -203,14 +203,14 @@ numero ,fecha ,costo,producto ,cantidad ,precio ,envio ,genero ,edad ,telefono ,
 202,,25,Maca,100 tabletas,200,0,M,A,,,hugo
 203,,25,Moringa,100 tabletas,200,0,M,A,,,juan
 203,,25,Clorella,100 tabletas,200,0,M,A,,,roly
-204,,25,Curcurma,100 tabletas,200,0,M,A,,,roly
+204,,25,Curcuma ,100 tabletas,200,0,M,A,,,roly
 205,,25,Maca,100 tabletas,200,0,M,J,,,tocayo
 206,,25,Diabetes,100 tabletas,200,0,M,J,,,tocayo
 207,,25,Clorella,100 tabletas,200,0,M,J,,,tocayo
 208,,25,Moringa,100 tabletas,200,0,M,A,,,roly
-209,,25,Curcuma,100 tabletas,200,0,F,J,,,sara
-210,,25,Fukus,100 tabletas,200,0,F,J,,,sara
-211,,25,Fukus,100 tabletas,200,0,F,J,,,sara
+209,,25,Curcuma ,100 tabletas,200,0,F,J,,,sara
+210,,25,Alga Fucus ,100 tabletas,200,0,F,J,,,sara
+211,,25,Alga Fucus ,100 tabletas,200,0,F,J,,,sara
 212,,25,Valeriana,100 tabletas,200,0,F,A,,,lizeth
 213,,50,CBD,20 gotas ,70,0,F,A,,,lizeth
 214,,65,Bluberry C,1 kilo,100,0,M,J,,,omar
@@ -221,7 +221,7 @@ numero ,fecha ,costo,producto ,cantidad ,precio ,envio ,genero ,edad ,telefono ,
 219,,25,Bluberry C,1 kilo,200,0,M,J,,,tocayo
 220,,25,Maca,100 tabletas,200,0,M,J,,,tocayo
 221,,25,Maca,100 tabletas,200,0,F,J,,,izel 
-222,,25,Fukus,100 tabletas,200,0,F,J,,,izel 
+222,,25,Alga Fucus ,100 tabletas,200,0,F,J,,,izel 
 223,,25,Espirulina,100 tabletas,200,0,F,J,,,izel 
 224,,65,Bluberry C,1 kilo,100,0,F,J,,,izel 
 225,,65,Bluberry C,1 kilo,100,0,F,J,,,izel 
