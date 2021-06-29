@@ -1,0 +1,462 @@
+---
+title: "LM Assistant"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: scroll
+    fig_mobile: TRUE
+    theme: lumen
+runtime: shiny
+---
+
+<style>                     
+.navbar {
+  background-color:#00B140;
+}
+</style>  
+
+```{r global, include=FALSE}
+library(shiny)
+library(tidyverse)
+library(data.table)
+library(DT)
+library(leaps)
+library(MASS)
+library(ggiraphExtra)
+library(lmtest)
+library(car)
+library(normtest)
+library(strucchange)
+```
+
+
+Sidebar {.sidebar}
+=====================================
+
+### 
+
+<center>
+
+```{r input1}
+fileInput("datafile", "Subir archivo", accept = c(".csv"))
+```
+
+</br>
+
+```{r input2}
+radioButtons("tipo_modelo", "Selecciona el tipo de modelo:", c("Lineal", "Log"), inline = TRUE)
+```
+
+</br>
+
+```{r input3}
+selectInput("dependiente", "Selecciona la variable dependiente:", choices = "Podrás elegir la variable dependiente cuando subas el archivo")
+```
+
+</br>
+
+```{r input4}
+checkboxGroupInput("independiente", "Selecciona las variables independiente:", choices = "Podrás elegir las variables independientes cuando subas el archivo")
+```
+
+</center>
+
+
+Personaliza tu modelo lineal
+=====================================
+
+Column {.tabset}
+-----------------------------------------------------------------------
+
+### Personalización
+
+<center>
+<table width="95%" border="0">
+<tr>
+<td style="width:100%" align="center">
+
+</br>
+
+<center><b style="font-size: 150%">**Personaliza tu modelo**</b></center>
+
+</br>
+
+<p style="text-align: justify; font-size: 100%">Has seleccionado ***`r renderText({input$dependiente})`*** como variable dependiente y ***`r renderText({input$independiente})`*** como variables independientes; a continuación se muestra la especificación de la regresión y el resumen estadístico tu [modelo lineal](https://es.wikipedia.org/wiki/Regresi%C3%B3n_lineal).</p>
+
+</br>
+
+```{r}
+observeEvent(input$datafile,{
+datos <- read.csv(input$datafile$datapath)
+updateSelectInput(session, "dependiente", "Selecciona la variable dependiente", choices = colnames(datos))
+updateCheckboxGroupInput(session, "independiente", "Selecciona las variables independientes", choices = colnames(datos))
+})
+    
+datos <- reactive({
+if (input$tipo_modelo == "Lineal") {data<-read.csv(input$datafile$datapath)}
+  else if (input$tipo_modelo == "Log") {data<-log(read.csv(input$datafile$datapath))}
+})
+
+checkedVal <- reactive({
+perm.vector <- as.vector(input$independiente)
+predForm <- ifelse(length(perm.vector)>0,
+predictors <- paste(perm.vector,collapse="+"))
+lmForm<-paste(input$dependiente, "~", predForm, sep="") 
+}) 
+    
+fitModel<-reactive({
+fitFormula<-as.formula(checkedVal())
+lm(fitFormula, data = datos())
+})
+```
+
+<center><p style="font-size: 100%">**Fórmula:** *`r renderText({checkedVal()})`*</p></center>
+
+```{r}
+renderPrint({summary(fitModel())})
+# output$mpgPlot<-renderPlot({
+# par(mfrow = c(2, 2), oma = c(0, 0, 2, 0))
+# plot(fitModel(),sub.caption="Diagnostic Plots")
+# })
+```
+
+</td>
+</tr>
+</table>
+</center>
+
+
+
+### FAQ
+
+<center>
+<table width="95%" border="0">
+<tr>
+<td style="width:100%" align="center">
+
+</br>
+
+<p style="text-align: justify; font-size: 100%">Aquí podrás encontrar la respuesta a las preguntas más frecuentes sobre LM Assistant.</p>
+
+</br>
+
+**¿Qué es LM Assistant?**
+
+<p style="text-align: justify; font-size: 100%">LM Assistant es un asiste virtual que te ayudará a construir modelos lineales de manera rápida y eficaz. LM Assistant está dotado de algoritmos que le permiten sugerir los mejores modelos lineales en función de las variables ingresadas en el programa.</p>
+
+</br>
+
+**¿Cómo debo ingresar mis variables al programa?**
+
+<p style="text-align: justify; font-size: 100%">Utilice el botón *Browse* para subir un archivo formato *csv*, asegúrese de incluir únicamente variable numéricas para que el asistente pueda sugerir los mejores modelos lineales.</p>
+
+</br>
+
+**¿Cómo seleccionar mis variables?**
+
+<p style="text-align: justify; font-size: 100%">Una vez que suba su archivo formato *csv*, podrá seleccionar la variable dependiente de la lista desplegable con la etiqueta *Selecciona la variable dependiente*, así mismo, podrá seleccionar las variables independientes dando clic en los recuadros de las variables en la sección *Selecciona las variables independientes*, posterior a esto, el programa ejecutará el modelo seleccionado.</p>
+
+</br>
+
+**¿Qué información genera el programa**
+
+<p style="text-align: justify; font-size: 100%">El programa genera la regresión lineal, una gráfica de la interacción de las variables, una gráfica de los componentes, el análisis de la varianza y las pruebas de hipótesis del modelo lineal.</p>
+
+</br>
+
+</td>
+</tr>
+</table>
+</center>
+
+
+
+Column {data-width=400 .tabset}
+-----------------------------------------------------------------------
+
+### Sugerencia 1
+
+<center>
+<table width="95%" border="0">
+<tr>
+<td style="width:100%" align="center">
+
+</br>
+
+<center><b style="font-size: 150%">**Sugerencia del asistente**</b></center>
+
+</br>
+
+<p style="text-align: justify; font-size: 100%">El asistente genera una regresión lineal de todos los subconjuntos y selecciona aquellos modelos con mejor ajuste mediante el [criterio de información Bayesiano](https://es.wikipedia.org/wiki/Criterio_de_informaci%C3%B3n_bayesiano).</br>Según el asistente, estos son los modelos que explican mejor la variable ***`r renderText({input$dependiente})`***:</p>
+
+</br>
+
+```{r}
+checkedValAll <- reactive({
+perm.vectorAll <- as.vector(colnames(datos()))
+predFormAll <- ifelse(length(perm.vectorAll)>0,
+predictorsAll <- paste(perm.vectorAll,collapse="+"))
+lmFormAll<-paste(input$dependiente, "~", predFormAll, sep="") 
+}) 
+    
+fitAllModels<-reactive({
+fitAllFormulas<-as.formula(checkedValAll())
+regsubsets(fitAllFormulas, data = datos(),nbest=1)
+})
+
+renderPrint({summary(fitAllModels())})
+```
+
+</td>
+</tr>
+</table>
+</center>
+</br>
+
+
+
+### Sugerencia 2
+
+<center>
+<table width="95%" border="0">
+<tr>
+<td style="width:100%" align="center">
+
+</br>
+
+<center><b style="font-size: 150%">**Sugerencia del asistente**</b></center>
+
+</br>
+
+<p style="text-align: justify; font-size: 100%">El asistente genera una regresión lineal con todas la variables mediante el método [stepwise](https://en.wikipedia.org/wiki/Stepwise_regression) y selecciona aquellas variables que son estadísticamente significativas mediante el [criterio de información Akaike](https://es.wikipedia.org/wiki/Criterio_de_informaci%C3%B3n_de_Akaike).</br>Según el asistente, este es el modelo que explica mejor la variable ***`r renderText({input$dependiente})`***:</p>
+
+</br>
+
+```{r}
+checkedValStep <- reactive({
+perm.vectorStep <- as.vector(colnames(datos()))
+predFormStep <- ifelse(length(perm.vectorStep)>0,
+predictorsStep <- paste(perm.vectorStep,collapse="+"))
+lmFormStep<-paste(input$dependiente, "~", predFormStep, sep="") 
+}) 
+
+#training_data = na.omit(training_data)
+
+fitModelBase<-reactive({
+fitFormulaBase<-as.formula(checkedValStep())
+lm(fitFormulaBase, data = na.omit(datos()))
+})
+
+fitStepModels <- reactive({
+stepAIC(fitModelBase(), trace=FALSE, direction="both")
+})
+
+renderPrint({summary(fitStepModels())})
+```
+
+</td>
+</tr>
+</table>
+</center>
+</br>
+
+
+
+### Ayuda
+
+<center>
+<table width="95%" border="0">
+<tr>
+<td style="width:100%" align="center">
+
+</br>
+
+<p style="text-align: justify; font-size: 100%">Aquí podrás encontrar información que te ayudará a entender la razón de algunos errores en la ejecución del programa</p>
+
+</br>
+
+**Error: argument "no" is missing, with no default**
+
+<p style="text-align: justify; font-size: 100%">No se puede generar un modelo lineal porque no se ha subido ninguna base de datos al LM Assistant.</p>
+
+</br>
+
+**Error: 'file' must be a character string or connection**
+
+<p style="text-align: justify; font-size: 100%">El LM Assistant no puede generar sugerencias de los mejores modelos lineales porque no se ha subido ninguna base de datos al programa.</p>
+
+</br>
+
+**Error: NA/NaN/Inf in 'y'**
+
+<p style="text-align: justify; font-size: 100%">LM Assistant no puede generar un modelo con las variables seleccionadas, esto puede ser debido a que las variables son de tipo caracter.</p>
+
+</br>
+
+**Error: contrasts can be applied only to factors with 2 or more levels**
+
+<p style="text-align: justify; font-size: 100%">LM Assistant no puede sugerir ningún modelo con las variables seleccionadas, esto puede ser debido a que las variables son de tipo caracter.</p>
+
+</br>
+
+**Maximum upload size exceeded**
+
+<p style="text-align: justify; font-size: 100%">LM Assistant no puede abrir el archivo *csv* porque es demasiado grande.</p>
+
+</br>
+
+</td>
+</tr>
+</table>
+</center>
+
+
+
+Interacción
+=====================================
+
+Column {.tabset}
+-----------------------------------------------------------------------
+
+### Interacción de las variables
+
+<center><b style="font-size: 150%">**Interacción**</b></center>
+
+```{r}
+renderPlot({
+ggPredict(fitModel())
+})
+```
+
+</br>
+
+<p style="text-align: justify; font-size: 100%">Texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto.</p>
+
+</br>
+
+
+
+Componentes
+=====================================
+
+Column {.tabset}
+-----------------------------------------------------------------------
+
+### Gráfica de componentes del modelo lineal
+
+<center><b style="font-size: 150%">**Componentes**</b></center>
+
+```{r}
+renderPlot({
+par(mfrow=c(2,2))
+plot(fitModel(), which=1:4)
+})
+```
+
+</br>
+
+<p style="text-align: justify; font-size: 100%">Texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto.</p>
+
+</br>
+
+
+
+Análisis de la varianza
+=====================================
+
+Column {.tabset}
+-----------------------------------------------------------------------
+
+### ANOVA
+
+<center><b style="font-size: 150%">**Análisis de la varianza**</b></center>
+
+```{r}
+renderPrint({
+anova(fitModel())
+})
+```
+
+</br>
+
+<p style="text-align: justify; font-size: 100%">Texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto.</p>
+
+</br>
+
+
+
+Pruebas de hipótesis
+=====================================
+
+Column {.tabset}
+-----------------------------------------------------------------------
+
+### Breusch-Pagan Test
+
+<center><b style="font-size: 150%">**Homocedasticidad**</b></center>
+
+```{r}
+renderPrint({
+bptest(fitModel())
+})
+```
+
+</br>
+
+<p style="text-align: justify; font-size: 100%">Texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto.</p>
+
+</br>
+
+
+
+### Durbin-Watson Test
+
+<center><b style="font-size: 150%">**Autocorrelación**</b></center>
+
+```{r}
+renderPrint({
+durbinWatsonTest(fitModel())
+})
+```
+
+</br>
+
+<p style="text-align: justify; font-size: 100%">Texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto.</p>
+
+</br>
+
+
+
+### Distribución normal de los errores
+
+<center><b style="font-size: 150%">**Normalidad de los errores**</b></center>
+
+```{r}
+renderPlot({
+hist(fitModel()$residuals)
+})
+```
+
+</br>
+
+<p style="text-align: justify; font-size: 100%">Texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto.</p>
+
+</br>
+
+
+
+### Ramsey Reset Test
+
+<center><b style="font-size: 150%">**Linealidad del modelo**</b></center>
+
+```{r}
+renderPrint({
+resettest(fitModel())
+})
+```
+
+</br>
+
+<p style="text-align: justify; font-size: 100%">Texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto, texto.</p>
+
+</br>
