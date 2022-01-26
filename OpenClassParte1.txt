@@ -1,0 +1,89 @@
+### Liga de RStudio Cloud:
+### https://rstudio.cloud
+
+### Vector de números
+
+vector_numeros1 <- c(1, 2, 3, 4, 5, 6)
+vector_numeros1
+
+vector_numeros2 <- 1:6
+vector_numeros2
+
+### Vector de letras
+
+mayusculas <- LETTERS[1:12]
+mayusculas
+
+minusculas <- letters[13:26]
+minusculas
+
+### Vector de palabras
+
+vector_palabras <- c("perro", "gato", "oso", "pato", "vaca", "conejo")
+vector_palabras
+
+### Matrices con la función matrix
+
+vector1 <- 1:5
+vector2 <- 11:15
+vector3 <- 21:25
+
+matriz1 <- matrix(c(vector1, vector2, vector3), ncol = 3)
+matriz1
+
+matriz2 <- matrix(c(1, 2, 3, 4, 5, 6), nrow = 2, ncol = 3)
+matriz2
+
+matriz3 <- matrix(1:6, nrow = 3, ncol = 2)
+matriz3
+
+### Matrices por renglones con la función rbind:
+
+renglon1 <- 1:5
+renglon2 <- letters[1:5]
+por_renglones1 <- rbind(renglon1, renglon2)
+por_renglones1
+
+por_renglones2 <- rbind(Renglon1 = c(100, 200, 300, 400, 500, 600), Renglon2 = LETTERS[1:6])
+por_renglones2
+
+### Matrices por columnas con la función cbind:
+
+columna1 <- c(11, 21, 31, 41, 51)
+columna2 <- letters[11:15]
+por_columnas1 <- cbind(columna1, columna2)
+por_columnas1
+
+por_columnas2 <- cbind(Columna1 = 1:6, Columna2 = c("perro", "gato", "oso", "pato", "vaca", "conejo"))
+por_columnas2
+
+### Data frames:
+
+datos1 <- data.frame(por_columnas2)
+datos1
+
+nombre <- c("Ana", "Pablo", "Laura", "José") 
+edad <- c(15, 22, 11, 19)
+
+datos2 <- data.frame(nombre, edad)
+datos2
+
+datos3 <- data.frame(nombre = c("Diana", "Pedro", "María", "Felipe"), edad = c(25, 17, 21, 23))
+datos3
+
+### Cambiar nombres de matrices o data frames:
+
+colnames(datos3) <- c("Primer nombre", "Edad (años)")
+rownames(datos3) <- c("Primera persona", "Segunda persona", "Tercera persona", "Cuarta persona")
+datos3
+
+### Base de Ejemplo:
+### https://cghv94.github.io/hoteles-moteles-trivago.csv
+
+### Importar una base de datos:
+
+base1 <- read.csv(file.choose())
+base1
+
+base2 <- read.csv("hoteles-moteles-trivago.csv")
+base2
