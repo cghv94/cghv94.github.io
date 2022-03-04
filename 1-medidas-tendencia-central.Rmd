@@ -2,16 +2,16 @@
 title: "Medidas de tendencia central"
 author:
     name: "[Cesar Gerardo Hernández Vargas](https://cghv94.github.io)"
-    affiliation: "Estadística 2022-2, [Facultad de economía](http://www.economia.unam.mx/)"
+    affiliation: "Taller IV 2022-2, [Facultad de economía](http://www.economia.unam.mx/)"
 date: "2/3/2022"
 output: html_document
 ---
 
 ### 1. ¿Qué son las medidas de tendencia central? 🤔 {style="text-align: justify;"}
 
-> "Las medidas de tendencia central son parámetros estadísticos que informan sobre el centro de la distribución de la [muestra](https://economipedia.com/definiciones/muestra-estadistica.html)o [población estadística](https://economipedia.com/definiciones/poblacion-estadistica.html)."
+> "La **medida de tendencia central** (moda,media y mediana), **parámetro de tendencia central** o **medida de centralización** es un número ubicado hacia el centro de la distribución de los valores de una serie de observaciones (medidas), en la que se encuentra ubicado el conjunto de los datos. Las medidas de tendencia central más utilizadas son: media, mediana u moda. Cuando se hace referencia únicamente a la posición de estos parámetros dentro de la distribución, independientemente de que esté más o menos centrada, se habla de estas medidas como **medidas de posición**."
 
-[Economipedia (2022)](https://economipedia.com/definiciones/medidas-de-tendencia-central.html "Economipedia (2022)")
+[Wikipedia (2022)](https://es.wikipedia.org/wiki/Medidas_de_tendencia_central "Wikipedia (2022)") 📚
 
 Para este ejemplo, primero generaremos una serie de **100** números aleatorios entre **1** y **20** mediante la función `sample`. El argumento `TRUE` nos permitirá generar una muestra con remplazo:
 
@@ -22,9 +22,9 @@ numeros
 
 ### 2. Mediana 📍 {style="text-align: justify;"}
 
-> Definición: "aquí va la definición"
+> "En el ámbito de la estadística, la **mediana** (del latín *mediānus* 'del medio'​) representa el valor de la variable de posición central en un conjunto de datos ordenados. Se le denota **mediana**."
 
-[Fuente (año)](https://www.google.com/ "Fuente (año)")
+[Wikipedia (2022) 📚](https://es.wikipedia.org/wiki/Mediana_(estad%C3%ADstica) "Wikipedia (2022) 📚")
 
 Para obtener la **mediana**, podemos ordenar los `numeros` de menor a mayor, **el número que esté en medio de la muestra será la mediana**. Si utilizamos R, se puede hacer el cálculo de la **mediana** con la función `median`:
 
@@ -35,9 +35,9 @@ mediana
 
 ### 3. Media 🧮 {style="text-align: justify;"}
 
-> Definición: "aquí va la definición"
+> "La **media** *x* (también llamada **promedio** o **media aritmética**) de un conjunto de datos (X~1~,X~2~,...,X~N~) es una medida de posición central. La definimos como el valor característico de la serie de datos resultado de la suma de todas las observaciones dividido por el número total de datos."
 
-[Fuente (año)](https://www.google.com/ "Fuente (año)")
+[Universo Fórmulas (2022) 📚](https://www.universoformulas.com/estadistica/descriptiva/media/ "Universo Fórmulas (2022) 📚")
 
 <center>
 
@@ -45,7 +45,7 @@ $$ Media ={\frac {1}{n}}\sum _{i=1}^{n}a_{i}={\frac {a_{1}+a_{2}+\cdots +a_{n}}{
 
 </center>
 
-Si usamos R, podemos obtener la media de una muestra si utlilizamos la función **mean**:
+Si usamos R, podemos obtener la media de una muestra si utlilizamos la función `mean`:
 
 ```{r}
 media <- mean(numeros)
@@ -54,9 +54,9 @@ media
 
 ### 4. Moda 📊 {style="text-align: justify;"}
 
-> Definición: "aquí va la definición"
+> "La moda estadística es aquel valor que, dentro de un **conjunto de datos,** se repite el **mayor número de veces.**"
 
-[Fuente (año)](https://www.google.com/ "Fuente (año)")
+[Enciclopedia Económica (2022) 📚](https://enciclopediaeconomica.com/moda-estadistica/ "Enciclopedia Económica (2022) 📚")
 
 Podemos saber cuál es la **frecuencia** (número de veces que aparece un elemento en una muestra) de cada número si dibujamos un **histograma** con la función `hist`, **aquel elemento con mayor frecuencia será la moda**:
 
@@ -103,8 +103,8 @@ media.muestra
 
 ```{r}
 # Aquí el cálculo de la moda
-tabla.muestra <- data.frame(table(muestra))
-tabla.muestra
+tabla.moda <- data.frame(table(muestra))
+tabla.moda
 ```
 
 <center>
